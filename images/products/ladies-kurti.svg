@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#D81B60" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#D81B60" opacity="0.9">
+    <path d="M-24,-30 L-38,-15 L-28,-2 L-20,-10 L-20,50 L20,50 L20,-10 L28,-2 L38,-15 L24,-30 Q12,-38 0,-38 Q-12,-38 -24,-30 Z"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#D81B60" text-anchor="middle">Cotton Kurti</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

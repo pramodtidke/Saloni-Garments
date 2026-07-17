@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#C9982D" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#C9982D" opacity="0.9">
+    <rect x="-32" y="-32" width="64" height="64" rx="2" transform="rotate(8)"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#C9982D" text-anchor="middle">Hand Napkin Set</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

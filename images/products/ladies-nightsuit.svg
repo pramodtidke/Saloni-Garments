@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#D81B60" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#D81B60" opacity="0.9">
+    <path d="M-22,-32 L-36,-16 L-27,-4 L-19,-11 L-19,20 L-24,78 L-8,78 L-4,28 L4,28 L8,78 L24,78 L19,20 L19,-11 L27,-4 L36,-16 L22,-32 Q11,-38 0,-38 Q-11,-38 -22,-32 Z"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#D81B60" text-anchor="middle">Night Suit</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

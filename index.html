@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Saloni Ladies Garment — Mahal &amp; Sakkardara, Nagpur</title>
+<meta name="description" content="Saloni Ladies Garment — trusted since 1991 for everyday ladies wear, men's wear and daily essentials. Visit us in Mahal or Sakkardara, Nagpur, or chat with us on WhatsApp." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Karla:wght@400;600;700&family=Noto+Sans+Devanagari:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- LocalBusiness structured data for search visibility -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClothingStore",
+  "name": "Saloni Ladies Garment",
+  "foundingDate": "1991",
+  "telephone": "+918657010407",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Wakar Road, Opposite Ram Bhandar, Badkas Chowk",
+      "addressLocality": "Mahal, Nagpur",
+      "postalCode": "440032",
+      "addressCountry": "IN"
+    }
+  ],
+  "openingHours": "Mo-Su 11:00-22:00"
+}
+</script>
+</head>
+<body>
+
+<!-- 1. Rolling Announcement Banner -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>New stock arrived this week — Kurti, Nightwear &amp; Daily Essentials</span>
+    <span>•</span>
+    <span>Now serving you at 2 locations — Mahal &amp; Sakkardara</span>
+    <span>•</span>
+    <span>34+ Years of Trust in Nagpur</span>
+    <span>•</span>
+    <span>New stock arrived this week — Kurti, Nightwear &amp; Daily Essentials</span>
+    <span>•</span>
+    <span>Now serving you at 2 locations — Mahal &amp; Sakkardara</span>
+    <span>•</span>
+    <span>34+ Years of Trust in Nagpur</span>
+  </div>
+</div>
+
+<!-- 2. Header / Nav -->
+<header class="site-header">
+  <div class="container nav-inner">
+    <div class="brand-mark">
+      <span>
+        <span class="brand-hi hi">सलोनी</span>
+        <span class="brand-en">SALONI LADIES GARMENT</span>
+      </span>
+    </div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#cat-ladies">Ladies Wear</a>
+      <a href="#cat-mens">Men's Wear</a>
+      <a href="#cat-essentials">Daily Essentials</a>
+      <a href="#locations">Visit Us</a>
+    </nav>
+    <div class="font-toggle" aria-label="Text size">
+      <button id="font-decrease" aria-label="Decrease text size">A-</button>
+      <button id="font-increase" aria-label="Increase text size">A+</button>
+    </div>
+  </div>
+</header>
+
+<!-- 3. Hero -->
+<section class="hero" id="home">
+  <div class="container">
+    <span class="hero-badge">✨ Celebrating 35 Years in 2026</span>
+    <h1 class="brand-hi-big hi">सलोनी लेडीज गारमेंट</h1>
+    <p class="brand-en-big">SALONI LADIES GARMENT</p>
+    <p class="tagline-hi hi">रोज़ की ज़रूरत, रिश्तों जैसा भरोसा</p>
+    <p class="tagline">Everyday wear and daily essentials for the whole family — not trendy fashion, just honest comfort since 1991.</p>
+    <div class="hero-ctas">
+      <a href="#" id="hero-whatsapp" class="btn btn-primary" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+      <a href="#cat-ladies" class="btn btn-secondary">See Collection</a>
+    </div>
+    <div class="trust-strip">
+      <span><b>34+</b> Years in Nagpur</span>
+      <span><b>2</b> Locations</span>
+      <span><b>1000s</b> of Happy Customers</span>
+      <span>⭐ Google Rated</span>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Search + Filters, 5-7. Product Categories -->
+<section class="section" id="shop">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Collection</span>
+      <h2>Shop by Category</h2>
+      <p>Everything for everyday living — clothing, essentials &amp; more, all under one roof.</p>
+    </div>
+
+    <div class="search-filter-bar">
+      <div class="search-box">
+        <span class="icon" aria-hidden="true">🔍</span>
+        <input type="text" id="product-search" placeholder="Search products, like kurti or towel" />
+      </div>
+      <div class="filter-chips">
+        <button class="chip active" data-cat="all">All</button>
+        <button class="chip" data-cat="ladies">Ladies Wear</button>
+        <button class="chip" data-cat="mens">Men's Wear</button>
+        <button class="chip" data-cat="essentials">Daily Essentials</button>
+      </div>
+    </div>
+
+    <div id="product-sections"><!-- product cards render here via script.js --></div>
+  </div>
+</section>
+
+<!-- 8. Photo Showcase -->
+<section class="section" id="showcase">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">A Look Inside</span>
+      <h2>Visit Our Store</h2>
+      <p>Real photos coming soon — here's a placeholder preview of what will go here.</p>
+    </div>
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <img src="images/shop/mahal-storefront.svg" alt="Mahal storefront" />
+        <div class="showcase-caption">Mahal Storefront</div>
+      </div>
+      <div class="showcase-item">
+        <img src="images/shop/ladies-section.svg" alt="Ladies wear section" />
+        <div class="showcase-caption">Ladies Wear Section</div>
+      </div>
+      <div class="showcase-item">
+        <img src="images/shop/mens-section.svg" alt="Men's wear section" />
+        <div class="showcase-caption">Men's Wear Section</div>
+      </div>
+      <div class="showcase-item">
+        <img src="images/shop/sakkardara-storefront.svg" alt="Sakkardara storefront" />
+        <div class="showcase-caption">Sakkardara Storefront</div>
+      </div>
+      <div class="showcase-item">
+        <img src="images/shop/essentials-counter.svg" alt="Daily essentials counter" />
+        <div class="showcase-caption">Daily Essentials Counter</div>
+      </div>
+      <div class="showcase-item">
+        <img src="images/shop/family-photo.svg" alt="The Saloni family" />
+        <div class="showcase-caption">Meet the Saloni Family</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Locations -->
+<section class="section" id="locations">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Find Us</span>
+      <h2>Our Locations</h2>
+      <p>Two stores in Nagpur, both open every day.</p>
+    </div>
+    <div class="locations-grid">
+
+      <div class="location-card">
+        <h4>Mahal Branch</h4>
+        <p><span class="landmark">Opposite Ram Bhandar</span>, Wakar Road, Badkas Chowk, Mahal, Nagpur - 440032</p>
+        <p class="hours">🕚 Monday–Sunday, 11:00 AM – 10:00 PM</p>
+        <p class="hours">📞 +91 86570 10407</p>
+        <iframe src="https://www.google.com/maps?q=Saloni+Ladies+Garment+Wakar+Road+Mahal+Nagpur&output=embed" loading="lazy" title="Map to Saloni Ladies Garment, Mahal branch"></iframe>
+        <div class="location-actions">
+          <a href="https://share.google/KOgCtOo8Vttyoo7Oq" target="_blank" rel="noopener" class="btn btn-outline">📍 Get Directions</a>
+          <a href="#" id="mahal-whatsapp" target="_blank" rel="noopener" class="btn btn-primary">💬 WhatsApp</a>
+          <a href="#" id="mahal-call" class="btn btn-secondary">📞 Call</a>
+        </div>
+      </div>
+
+      <div class="location-card">
+        <h4>Sakkardara Branch</h4>
+        <p><span class="landmark">H. No. 44, Shrirupurakr Building</span>, Sakkardara Chowk, Nagpur - 440010</p>
+        <p class="hours">🕚 Monday–Sunday, 11:00 AM – 10:00 PM</p>
+        <p class="hours">📞 +91 88303 76414</p>
+        <iframe src="https://www.google.com/maps?q=Sakkardara+Chowk+Nagpur&output=embed" loading="lazy" title="Map to Saloni Ladies Garment, Sakkardara branch"></iframe>
+        <div class="location-actions">
+          <a href="https://www.google.com/maps/search/?api=1&query=Sakkardara+Chowk+Nagpur" target="_blank" rel="noopener" class="btn btn-outline">📍 Get Directions</a>
+          <a href="#" id="sakkardara-whatsapp" target="_blank" rel="noopener" class="btn btn-primary">💬 WhatsApp</a>
+          <a href="#" id="sakkardara-call" class="btn btn-secondary">📞 Call</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 10. Why Shop With Us -->
+<section class="section" id="why-us">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Why Saloni</span>
+      <h2>Why Shop With Us</h2>
+      <p>We don't sell trendy fashion — we sell comfortable, reliable everyday wear your family actually needs.</p>
+    </div>
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="icon" aria-hidden="true">📏</div>
+        <h4>Not Sure Which Size?</h4>
+        <p>A rough guide to help you start the conversation — we'll help you get the exact fit over WhatsApp.</p>
+        <table class="size-table">
+          <tr><th>Size</th><th>S</th><th>M</th><th>L</th><th>XL</th></tr>
+          <tr><td>Bust (in)</td><td>32-34</td><td>36-38</td><td>40-42</td><td>44-46</td></tr>
+        </table>
+      </div>
+
+      <div class="why-card">
+        <div class="icon" aria-hidden="true">💬</div>
+        <h4>Not Sure What to Buy?</h4>
+        <p>Confused about size, fit, or fabric? Ask us directly — we'll guide you like family, not like a stranger behind a counter.</p>
+        <a href="#" id="bulk-whatsapp" target="_blank" rel="noopener" class="btn btn-primary">Ask Us on WhatsApp</a>
+      </div>
+
+      <div class="why-card">
+        <div class="icon" aria-hidden="true">🔄</div>
+        <h4>Easy Exchange</h4>
+        <p>Not happy with the fit? We offer easy exchange within 3 days of purchase at either store, no hassle.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="icon" aria-hidden="true">🧵</div>
+        <h4>Care Tip of the Day</h4>
+        <p>Cotton kurtis last longer when dried in shade rather than direct sun — small habits, better fabric life.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 11. Google Reviews -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What Customers Say</span>
+      <h2>Reviews from Google</h2>
+    </div>
+    <div class="reviews-track">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>One of the best shops for ladies wear, I love the experience.</p>
+        <div class="who">— Nutan T.</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>Great collection of men's &amp; ladies' innerwear and readymade clothes. Reasonable prices and helpful staff. Been visiting for years!</p>
+        <div class="who">— Kundan T.</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>Very good clothing products available in Mahal market. Good experience overall. Thanks!</p>
+        <div class="who">— Pramod T.</div>
+      </div>
+    </div>
+    <div class="reviews-cta">
+      <a href="https://www.google.com/maps/search/?api=1&query=Saloni+Ladies+Garment+Mahal+Nagpur" target="_blank" rel="noopener" class="btn btn-outline">See All Reviews on Google</a>
+    </div>
+  </div>
+</section>
+
+<!-- 12. Stay Connected -->
+<section class="section" id="connect">
+  <div class="container">
+    <div class="connect-box">
+      <h3>Stay Connected</h3>
+      <p>Join our WhatsApp Channel for new arrivals, festive collections &amp; updates — no spam, just useful updates.</p>
+      <a href="#" class="btn btn-primary" target="_blank" rel="noopener">📢 Join WhatsApp Channel</a>
+      <p style="font-size:11px; opacity:0.75; margin-top:12px;">(Add your WhatsApp Channel link in index.html once created)</p>
+    </div>
+  </div>
+</section>
+
+<!-- 13. FAQ -->
+<section class="section" id="faq">
+  <div class="container" style="max-width:760px;">
+    <div class="section-head">
+      <span class="eyebrow">Questions</span>
+      <h2>Frequently Asked</h2>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">Do you offer wholesale or bulk pricing? <span class="chev">⌄</span></button>
+      <div class="faq-a"><p>Yes, we supply both retail and wholesale/bulk quantities, especially for innerwear and lingerie items. WhatsApp us for bulk enquiries.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Can I exchange an item if the size doesn't fit? <span class="chev">⌄</span></button>
+      <div class="faq-a"><p>Yes, we offer easy exchange within 3 days of purchase at either of our stores.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">What are your store timings? <span class="chev">⌄</span></button>
+      <div class="faq-a"><p>Both our Mahal and Sakkardara stores are open every day from 11:00 AM to 10:00 PM.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Do you accept online payment? <span class="chev">⌄</span></button>
+      <div class="faq-a"><p>Currently we accept cash in-store. This website is for browsing only — all purchases happen at our shops.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4 class="hi">सलोनी लेडीज गारमेंट</h4>
+      <p>Everyday wear and essentials, trusted since 1991.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <p><a href="#cat-ladies">Ladies Wear</a></p>
+      <p><a href="#cat-mens">Men's Wear</a></p>
+      <p><a href="#cat-essentials">Daily Essentials</a></p>
+      <p><a href="#locations">Visit Us</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>📞 Mahal: +91 86570 10407</p>
+      <p>📞 Sakkardara: +91 88303 76414</p>
+      <p>🕚 Daily, 11 AM – 10 PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Saloni Ladies Garment. All rights reserved.
+  </div>
+</footer>
+
+<!-- Floating WhatsApp + Call buttons -->
+<div class="fab-wrap">
+  <a href="#" id="fab-call" class="fab fab-call" aria-label="Call us">📞</a>
+  <a href="#" id="fab-whatsapp" class="fab fab-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

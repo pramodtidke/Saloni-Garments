@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#00695C" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#00695C" opacity="0.9">
+    <path d="M-24,-30 L-38,-14 L-27,-2 L-19,-10 L-19,55 L19,55 L19,-10 L27,-2 L38,-14 L24,-30 Q12,-37 0,-37 Q-12,-37 -24,-30 Z"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#00695C" text-anchor="middle">Casual Shirt</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

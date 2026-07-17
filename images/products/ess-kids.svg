@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#C9982D" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#C9982D" opacity="0.9">
+    <circle cx="0" cy="-30" r="12"/><path d="M-20,-8 Q-20,-20 0,-20 Q20,-20 20,-8 L24,40 L10,40 L6,10 L-6,10 L-10,40 L-24,40 Z"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#C9982D" text-anchor="middle">Kids Daily Wear</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

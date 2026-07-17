@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#FFF8F5"/>
+  <circle cx="300" cy="250" r="170" fill="#D81B60" opacity="0.08"/>
+  <g transform="translate(300,260) scale(2.6)" fill="#D81B60" opacity="0.9">
+    <path d="M-30,-10 Q-30,-25 -15,-25 Q-5,-25 0,-15 Q5,-25 15,-25 Q30,-25 30,-10 Q30,5 15,12 Q5,16 0,8 Q-5,16 -15,12 Q-30,5 -30,-10 Z"/>
+  </g>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#D81B60" text-anchor="middle">Fancy Bra Set</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="16" fill="#8a7a7d" text-anchor="middle">Photo coming soon</text>
+</svg>

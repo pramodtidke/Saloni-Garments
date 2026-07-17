@@ -1,0 +1,27 @@
+[
+  { "name": "Cotton Daily Kurti", "category": "ladies", "image": "images/products/ladies-kurti.svg", "tag": "new" },
+  { "name": "Fancy Bra Set", "category": "ladies", "image": "images/products/ladies-bra.svg", "tag": "popular" },
+  { "name": "Panty Pack", "category": "ladies", "image": "images/products/ladies-panty.svg", "tag": "" },
+  { "name": "Slip / Camisole", "category": "ladies", "image": "images/products/ladies-slip.svg", "tag": "" },
+  { "name": "Nighty / Gown", "category": "ladies", "image": "images/products/ladies-nighty.svg", "tag": "popular" },
+  { "name": "Leggings", "category": "ladies", "image": "images/products/ladies-leggings.svg", "tag": "" },
+  { "name": "Casual Top", "category": "ladies", "image": "images/products/ladies-top.svg", "tag": "new" },
+  { "name": "Night Suit", "category": "ladies", "image": "images/products/ladies-nightsuit.svg", "tag": "" },
+  { "name": "Innerwear Combo Pack", "category": "ladies", "image": "images/products/ladies-innerwear-combo.svg", "tag": "" },
+
+  { "name": "Cotton Baniyan", "category": "mens", "image": "images/products/mens-baniyan.svg", "tag": "popular" },
+  { "name": "Round Neck T-Shirt", "category": "mens", "image": "images/products/mens-tshirt.svg", "tag": "new" },
+  { "name": "Night Pyjama", "category": "mens", "image": "images/products/mens-pyjama.svg", "tag": "" },
+  { "name": "Innerwear", "category": "mens", "image": "images/products/mens-innerwear.svg", "tag": "" },
+  { "name": "Casual Shirt", "category": "mens", "image": "images/products/mens-shirt.svg", "tag": "" },
+  { "name": "Track Pants", "category": "mens", "image": "images/products/mens-trackpant.svg", "tag": "" },
+  { "name": "Vest Combo Pack", "category": "mens", "image": "images/products/mens-vestcombo.svg", "tag": "" },
+
+  { "name": "Bath Towel", "category": "essentials", "image": "images/products/ess-towel.svg", "tag": "" },
+  { "name": "Hand Napkin Set", "category": "essentials", "image": "images/products/ess-hanky.svg", "tag": "" },
+  { "name": "Socks Pack", "category": "essentials", "image": "images/products/ess-socks.svg", "tag": "" },
+  { "name": "Bedsheet Set", "category": "essentials", "image": "images/products/ess-bedsheet.svg", "tag": "new" },
+  { "name": "Kids Daily Wear", "category": "essentials", "image": "images/products/ess-kids.svg", "tag": "" },
+  { "name": "Hair Accessories Pack", "category": "essentials", "image": "images/products/ess-hair.svg", "tag": "" },
+  { "name": "Carry Bag", "category": "essentials", "image": "images/products/ess-bag.svg", "tag": "" }
+]
